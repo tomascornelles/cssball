@@ -19,9 +19,9 @@ h3{font-size:1.5em;color:#393;text-shadow:.05em .05em 0 rgba(0,0,0,.5);}
 .shorts(@short, @escudo){box-shadow:0 .5em 0 @short;color:@escudo;border-color:lighten(@short,5%); }
 
 /* planos */
-.pla1(@color1,@short,@escudo){background:@color1;.shorts(@short,@escudo);}
-.pla2(@color1,@color2,@short,@escudo){background:repeating-linear-gradient(90deg,@color1,@color1 2%,@color2 2%,@color2 4%,@color1 4%,@color1 96%,@color2 96%,@color2 98%,@color1 98%);.shorts(@short,@escudo);}
-.pla3(@color1,@color2,@short,@escudo){background:repeating-linear-gradient(180deg,@color1,@color1 5%,@color2 5%,@color2 10%,@color1 10%,@color1 100%);.shorts(@short,@escudo);}
+.pla01(@color1,@short,@escudo){background:@color1;.shorts(@short,@escudo);}
+.pla02(@color1,@color2,@short,@escudo){background:repeating-linear-gradient(90deg,@color1,@color1 2%,@color2 2%,@color2 4%,@color1 4%,@color1 96%,@color2 96%,@color2 98%,@color1 98%);.shorts(@short,@escudo);}
+.pla03(@color1,@color2,@short,@escudo){background:repeating-linear-gradient(180deg,@color1,@color1 5%,@color2 5%,@color2 10%,@color1 10%,@color1 100%);.shorts(@short,@escudo);}
 
 /* verticales */
 .ver21(@color1,@color2,@short,@escudo){background:repeating-linear-gradient(90deg,@color1,@color1 50%,@color2 50%,@color2);.shorts(@short,@escudo);}
@@ -66,8 +66,8 @@ h3{font-size:1.5em;color:#393;text-shadow:.05em .05em 0 rgba(0,0,0,.5);}
 .hor63(@color1,@color2,@color3,@short,@escudo){background:repeating-linear-gradient(180deg,@color1,@color1 5%,@color3 5%,@color3 10%,transparent 10%,transparent 100%),repeating-linear-gradient(0deg,@color2,@color2 8.33%,@color1 8.33%,@color1 25%, @color2 25%, @color2 33.33%);.shorts(@short,@escudo);}
 
 /* Especiales */
-.esp1(@color1,@color2,@color3,@short,@escudo){background:repeating-linear-gradient(180deg,@color1,@color1 5%,@color3 5%,@color3 10%,transparent 10%,transparent 100%),repeating-linear-gradient(-45deg,@color1,@color1 18%,@color2 18%,@color2 20%);.shorts(@short,@escudo);}
-.esp2(@color1,@color2,@color3,@short,@escudo){background:repeating-linear-gradient(180deg,@color1,@color1 5%,@color3 5%,@color3 10%,transparent 10%,transparent 100%),repeating-linear-gradient(90deg,@color1,@color1 6.67%,@color2 6.67%,@color2 13.33%,@color1 13.33%,@color1 20%);.shorts(@short,@escudo);}
+.esp01(@color1,@color2,@color3,@short,@escudo){background:repeating-linear-gradient(180deg,@color1,@color1 5%,@color3 5%,@color3 10%,transparent 10%,transparent 100%),repeating-linear-gradient(-45deg,@color1,@color1 18%,@color2 18%,@color2 20%);.shorts(@short,@escudo);}
+.esp02(@color1,@color2,@color3,@short,@escudo){background:repeating-linear-gradient(180deg,@color1,@color1 5%,@color3 5%,@color3 10%,transparent 10%,transparent 100%),repeating-linear-gradient(90deg,@color1,@color1 6.67%,@color2 6.67%,@color2 13.33%,@color1 13.33%,@color1 20%);.shorts(@short,@escudo);}
 
 
 /* ----------------------------------- */
